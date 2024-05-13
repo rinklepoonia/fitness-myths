@@ -1,38 +1,275 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+  font-family: 'Eurostile Extended';
+  src: url(../src/assets/fonts/eurostile_bold.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_eurostile {
+  font-family: 'Eurostile Extended', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.ff_manrope {
+  font-family: 'Manrope', sans-serif;
+}
+
+:root {
+  --fs-xs: 14px;
+  --fs-sm: 16px;
+  --fs-md: 16px;
+  --fs-lg: 26.4px;
+  --fs-xl: 30px;
+  --fs-2xl: 30px;
+  /* color */
+  --clr-black: #000000;
+  --clr-lightblack: #010101;
+  --clr-black13: #33333330;
+  --clr-yellow: #FCE500;
+  --clr-borderYellow: #FCE500C7;
+  --clr-white: #F2F2F3;
+}
+
+.color_lightBlack {
+  background: var(--clr-lightblack);
+}
+
+.color_white {
+  color: var(--clr-white);
+}
+
+/* .bg_yellow {
+  background: var(--clr-yellow);
+} */
+.color_yellow {
+  color: var(--clr-yellow);
+}
+
+.color_black {
+  color: var(--clr-black);
+}
+
+/* ========font-weight========= */
+.text_14xs {
+  font-size: var(--fs-xs);
+}
+
+.text_16sm {
+  font-size: var(--fs-sm);
+}
+
+.text_18md {
+  font-size: var(--fs-md);
+}
+
+.text_26lg {
+  font-size: var(--fs-lg);
+}
+
+.text_30xl {
+  font-size: var(--fs-xl);
+}
+
+.text_452xl {
+  font-size: var(--fs-2xl);
+}
+
+/* ======font-weight========= */
+.fw-normal {
+  font-weight: 400 !important;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+/* ========lihne-height======= */
+.lh_14 {
+  line-height: 14px;
+}
+
+.lh_16 {
+  line-height: 16px;
+}
+
+.lh_21 {
+  line-height: 21.86px;
+}
+
+.lh_23 {
+  line-height: 23.31px;
+}
+
+/* .lh_28 {
+  line-height: 28.8px;
+} */
+
+.lh_33 {
+  line-height: 33px;
+}
+
+.lh_37 {
+  line-height: 37.5px;
+}
+
+.lh_40 {
+  line-height: 40px;
+}
+
+.lh_49 {
+  line-height: 49.65px;
+}
+
+
+/* ============hero=========== */
+.custam_container {
+  max-width: 1120px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pt_40 {
+  padding-top: 40px;
+}
+
+.pt_15 {
+  padding-top: 15px;
+}
+
+.h_80 {
+  height: 80px;
+}
+
+.max_w_167 {
+  max-width: 167px;
+}
+
+.max_w_153 {
+  max-width: 153px;
+}
+
+.margin_7 {
+  margin: 7px;
+}
+
+.hero_bg {
+  background-image: url(./assets/images/svg/hero-bg-img.svg);
+  /* background-size: cover; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+.padding_13_8 {
+  padding: 13.47px 8.78px;
+}
+
+.btn_property {
+  border-radius: 1.01px;
+  background: var(--clr-yellow);
+  border: 1px solid transparent;
+}
+
+.outer_border {
+  border: 0.5px solid var(--clr-yellow);
+}
+
+/* ===========readbox============ */
+.max_w_995 {
+  max-width: 995px;
+}
+
+.pb_10 {
+  padding-bottom: 10px;
+}
+
+.py_65_164 {
+  padding-top: 65px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.box_ellip {
+  width: 910px;
+  height: 386px;
+  background: var(--clr-yellow);
+  opacity: 15%;
+  filter: blur(100px);
+}
+
+.boxEllip_position {
+  top: 29%;
+  left: 18%;
+  z-index: -1;
+}
+
+.box_border {
+  border: 1px solid var(--clr-borderYellow);
+  border-radius: 24px;
+  padding: 15px;
+}
+
+.box_bg_color {
+  background: var(--clr-black13);
+}
+
+@media (min-width:768px) {
+  .box_border {
+    padding: 63px 53px 50px 53px;
+  }
+
+  .mb_md_32 {
+    margin-bottom: 32px;
+  }
+
+  .lh_md_28 {
+    line-height: 28.8px;
+  }
+
+  :root {
+    /* --fs-xs: 14px; */
+    /* --fs-sm: 16px; */
+    --fs-md: 18px;
+    /* --fs-lg: 26.4px; */
+    /* --fs-xl: 30px; */
+    /* --fs-2xl: 45px; */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:992px) {
+  .max_w_640 {
+    max-width: 640px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .pt_lg_178 {
+    padding-top: 178px;
+  }
+
+  .pt_lg_109 {
+    padding-top: 109px;
+  }
+
+  .pb_lg_96 {
+    padding-bottom: 96px;
+  }
+
+  .py_lg_182_164 {
+    padding-top: 182px;
+    padding-bottom: 162px;
+  }
+
+  .lh_lg_59 {
+    line-height: 59.4px;
+  }
+
+  :root {
+    /* --fs-xs: 14px; */
+    /* --fs-sm: 16px; */
+    /* --fs-md: 18px; */
+    /* --fs-lg: 26.4px; */
+    /* --fs-xl: 30px; */
+    --fs-2xl: 45px;
   }
 }
