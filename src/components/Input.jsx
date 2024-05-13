@@ -3,9 +3,9 @@ import laptopImg from '../assets/images/svg/input-section-img.svg'
 
 function Input() {
     return (
-        <div className='pb_168 pt-lg-0 pt-5'>
+        <div className='pb_lg_168 pb_md_100 pb_30 pt-lg-0 pt-5'>
             <div className="custam_container">
-                <div className="row flex-lg-row flex-column-reverse justify-content-between">
+                <div className="row flex-lg-row flex-column-reverse justify-content-between input_row_gap">
                         <div className="col-lg-5 d-flex justify-content-center">
                             <img className='w-100 min_h_472 max_w_530' src={laptopImg} alt="laptopImg" />
                         </div>

@@ -18,7 +18,7 @@
   --fs-sm: 16px;
   --fs-md: 16px;
   --fs-lg: 26.4px;
-  --fs-xl: 30px;
+  --fs-xl: 20px;
   --fs-2xl: 30px;
   /* color */
   --clr-black: #000000;
@@ -35,7 +35,11 @@
   color: var(--clr-darkWhite);
 }
 
-.color_lightBlack {
+.color_lightblack {
+  color: var(--clr-lightblack);
+}
+
+.bg_lightBlack {
   background: var(--clr-lightblack);
 }
 
@@ -109,6 +113,10 @@
   line-height: 25px;
 }
 
+.lh_30 {
+  line-height: 30px;
+}
+
 /* .lh_28 {
   line-height: 28.8px;
 } */
@@ -119,10 +127,6 @@
 
 .lh_40 {
   line-height: 40px;
-}
-
-.lh_49 {
-  line-height: 49.65px;
 }
 
 
@@ -230,16 +234,16 @@
   margin-bottom: 13px;
 }
 
-.pb_168 {
-  padding-bottom: 168px;
+.pb_30 {
+  padding-bottom: 30px;
 }
 
 .opacity_56 {
   opacity: 56%;
 }
 
-.min_h_472 {
-  min-height: 472px;
+.input_row_gap {
+  row-gap: 15px;
 }
 
 .max_w_181 {
@@ -269,9 +273,42 @@ input:focus {
   border: 0.5px solid var(--clr-yellow)
 }
 
+/* ===========right-knowlwdgw=========== */
+.knowledge_bg_img {
+  background-image: url(./assets/images/png/knowledge-bg-img.png);
+}
+
+.py_20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.max_w_704 {
+  max-width: 704px;
+}
+
+.black_ellip {
+  width: 286.57px;
+  height: 46.13px;
+  background: var(--clr-black);
+  bottom: 0;
+  left: 104px;
+  opacity: 30%;
+  filter: blur(18px);
+}
+
 @media (min-width:768px) {
   .box_border {
     padding: 63px 53px 50px 53px;
+  }
+
+  .py_md_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .pb_md_100 {
+    padding-bottom: 100px;
   }
 
   .mb_md_32 {
@@ -290,17 +327,25 @@ input:focus {
     line-height: 37.5px;
   }
 
+  .lh_md_49 {
+    line-height: 49.65px;
+  }
+
   :root {
     /* --fs-xs: 14px; */
     /* --fs-sm: 16px; */
     --fs-md: 18px;
     /* --fs-lg: 26.4px; */
-    /* --fs-xl: 30px; */
+    --fs-xl: 30px;
     /* --fs-2xl: 45px; */
   }
 }
 
 @media (min-width:992px) {
+  .min_h_472 {
+    min-height: 472px;
+  }
+
   .max_w_640 {
     max-width: 640px;
   }
@@ -321,6 +366,10 @@ input:focus {
     padding-bottom: 96px;
   }
 
+  .pb_lg_168 {
+    padding-bottom: 168px;
+  }
+
   .py_lg_182_164 {
     padding-top: 182px;
     padding-bottom: 162px;
@@ -337,5 +386,11 @@ input:focus {
     /* --fs-lg: 26.4px; */
     /* --fs-xl: 30px; */
     --fs-2xl: 45px;
+  }
+}
+
+@media (max-width:991px) {
+  .max_w_310 {
+    max-width: 310px;
   }
 }
