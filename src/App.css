@@ -27,6 +27,12 @@
   --clr-yellow: #FCE500;
   --clr-borderYellow: #FCE500C7;
   --clr-white: #F2F2F3;
+  --clr-darkWhite: #FFFFFF;
+  --clr-white40: #F2F2F366;
+}
+
+.color_darkWhite {
+  color: var(--clr-darkWhite);
 }
 
 .color_lightBlack {
@@ -99,16 +105,16 @@
   line-height: 23.31px;
 }
 
+.lh_25 {
+  line-height: 25px;
+}
+
 /* .lh_28 {
   line-height: 28.8px;
 } */
 
 .lh_33 {
   line-height: 33px;
-}
-
-.lh_37 {
-  line-height: 37.5px;
 }
 
 .lh_40 {
@@ -215,6 +221,54 @@
   background: var(--clr-black13);
 }
 
+/* ==============input-section=============== */
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.mb_13 {
+  margin-bottom: 13px;
+}
+
+.pb_168 {
+  padding-bottom: 168px;
+}
+
+.opacity_56 {
+  opacity: 56%;
+}
+
+.min_h_472 {
+  min-height: 472px;
+}
+
+.max_w_181 {
+  max-width: 181px;
+}
+
+.max_w_530 {
+  max-width: 530px;
+}
+
+.padding_16_15 {
+  padding: 16.23px 15.72px;
+}
+
+.input_modification {
+  background: transparent;
+  border: transparent;
+  border: 0.5px solid var(--clr-white40);
+  padding: 16px 22px 12px 22px;
+  max-width: 522px;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+}
+
+input:focus {
+  border: 0.5px solid var(--clr-yellow)
+}
+
 @media (min-width:768px) {
   .box_border {
     padding: 63px 53px 50px 53px;
@@ -224,8 +278,16 @@
     margin-bottom: 32px;
   }
 
+  .mb_md_29 {
+    margin-bottom: 29px;
+  }
+
   .lh_md_28 {
     line-height: 28.8px;
+  }
+
+  .lh_md_37 {
+    line-height: 37.5px;
   }
 
   :root {
@@ -241,6 +303,10 @@
 @media (min-width:992px) {
   .max_w_640 {
     max-width: 640px;
+  }
+
+  .max_w_522 {
+    max-width: 522px;
   }
 
   .pt_lg_178 {

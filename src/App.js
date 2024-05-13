@@ -3,12 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Hero from './components/Hero';
 import Readbox from './components/Readbox';
+import Input from './components/Input';
 
 function App() {
   return (
     <div>
       <Hero />
-      <Readbox/>
+      <Readbox />
+      <Input/>
     </div>
   );
 }

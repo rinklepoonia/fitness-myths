@@ -12,7 +12,7 @@ function Readbox() {
                     <p className='ff_manrope fw-normal text_18md lh_md_28 lh_23 color_white max_w_995 text-center'>Early on in my career I realized that in order to get to the next level I needed to get stronger, pack on some lean muscle, improve my endurance, increase my sprint speed & develop robust change of direction qualities.</p>
                     <p className='ff_manrope fw-normal text_18md lh_md_28 lh_23 color_white max_w_995 text-center'>Problem was... I had no idea how to improve these qualities. I needed help. I spent majority of my time researching on social media platforms & doing workouts that got me minimal results.</p>
                     <p className='ff_manrope fw-normal text_18md lh_md_28 lh_23 color_white max_w_995 text-center mb_md_32 mb_20'>Once I figured out the secret sauce to improving all the qualities mentioned above, getting fit became effortless. No more stress, disappointment, anger or frustration. I want you to feel that too. This short eBook can provide you with the tools you need to start getting better results out of your current programs, while doing less not more.</p>
-                    <div className='outer_border max_w_167 mx-auto'><button className='ff_eurostile fw-bold text_14xs lh_14 color_black btn_property padding_13_8 max_w_153 margin_7 w-100 text-nowrap'>Download Now</button></div>
+                    <div className='outer_border max_w_181 mx-auto'><button className='ff_eurostile fw-bold text_14xs lh_14 color_black btn_property padding_13_8 max_w_153 margin_7 w-100 text-nowrap'>Download Now</button></div>
                 </div>
             </div>
         </div>
