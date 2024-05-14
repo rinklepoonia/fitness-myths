@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Readbox from './components/Readbox';
 import Input from './components/Input';
 import Rightknowledge from './components/Rightknowledge';
+import Author from './components/Author';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <Readbox />
       <Input />
-      <Rightknowledge/>
+      <Rightknowledge />
+      <Author/>
     </div>
   );
 }
