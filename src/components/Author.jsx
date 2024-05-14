@@ -4,7 +4,7 @@ import InstaImg from '../assets/images/svg/insta-img.svg'
 
 function Author() {
     return (
-        <div className='py_115_200'>
+        <div className='py_lg_115_312 py_30'>
             <div className="custam_container">
                 <div className="row justify-content-between">
                     <div className="col-lg-6 d-flex justify-content-center">

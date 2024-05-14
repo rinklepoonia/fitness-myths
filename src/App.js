@@ -6,6 +6,7 @@ import Readbox from './components/Readbox';
 import Input from './components/Input';
 import Rightknowledge from './components/Rightknowledge';
 import Author from './components/Author';
+import Avoid from './components/Avoid';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Readbox />
       <Input />
       <Rightknowledge />
-      <Author/>
+      <Author />
+      <Avoid/>
     </div>
   );
 }

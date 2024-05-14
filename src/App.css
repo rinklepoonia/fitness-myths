@@ -129,10 +129,9 @@
   line-height: 40px;
 }
 
-
 /* ============hero=========== */
 .custam_container {
-  max-width: 1120px;
+  max-width: 1140px;
   padding-left: 12px;
   padding-right: 12px;
   margin-left: auto;
@@ -298,9 +297,9 @@ input:focus {
 }
 
 /* ============author=========== */
-.py_115_200 {
-  padding-top: 115px;
-  padding-bottom: 200px;
+.py_30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .max_w_539 {
@@ -313,6 +312,46 @@ input:focus {
 
 .gap_10 {
   gap: 10px;
+}
+
+/* =========avoid=========== */
+.row_gap_10 {
+  row-gap: 10px;
+}
+
+.max_w_658 {
+  max-width: 658px;
+}
+
+.avoid_bg_img {
+  background-image: url(./assets/images/svg/avoid-bg-img.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.avoid_img_box {
+  border-radius: 16px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.mythsBtn_padding {
+  padding: 16.26px 14.22px;
+}
+
+.avoid_outer_border {
+  border: 0.5px solid var(--clr-black);
+}
+
+.margin_8_10 {
+  margin: 8px 10px;
+}
+
+.fit_content {
+  width: fit-content;
 }
 
 @media (min-width:768px) {
@@ -409,8 +448,23 @@ input:focus {
     padding-bottom: 162px;
   }
 
+  .py_lg_115_312 {
+    padding-top: 115px;
+    padding-bottom: 312px;
+  }
+
   .lh_lg_59 {
     line-height: 59.4px;
+  }
+
+  .laptop_position {
+    position: absolute;
+    top: -39%;
+    right: -5%;
+  }
+
+  .avoid_img_box {
+    padding: 52px 1px 43px 50px;
   }
 
   :root {
