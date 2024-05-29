@@ -5,10 +5,12 @@ const Hero = () => {
     return (
         <div>
             <div className='hero_bg'>
-                <nav className='h_80'>
+                <nav className='py_13'>
                     <div className='custam_container'>
-                        <div className='d-flex justify-content-end h_80'>
-                            <div className='d-flex justify-content-center outer_border max_w_167 w-100'><button className='ff_eurostile fw-bold text_14xs lh_14 color_black btn_property padding_13_8 max_w_153 margin_7 w-100 text-nowrap'>GET IN TOUCH</button></div>
+                        <div className='d-flex justify-content-end'>
+                            <div className='outer_border'>
+                                <button className='ff_eurostile fw-bold text_14xs lh_14 color_black btn_property padding_13_8 max_w_ 153 w-1 00 margin_7 text-nowrap'>GET IN TOUCH</button>
+                            </div>
                         </div>
                     </div>
                 </nav>

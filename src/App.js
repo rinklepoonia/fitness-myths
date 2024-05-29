@@ -7,6 +7,7 @@ import Input from './components/Input';
 import Rightknowledge from './components/Rightknowledge';
 import Author from './components/Author';
 import Avoid from './components/Avoid';
+import Hypervive from './components/Hypervive';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Input />
       <Rightknowledge />
       <Author />
-      <Avoid/>
+      <Avoid />
+      <Hypervive/>
     </div>
   );
 }

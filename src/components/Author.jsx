@@ -1,14 +1,21 @@
 import React from 'react'
 import AuthorImg from '../assets/images/png/author-image.png'
 import InstaImg from '../assets/images/svg/insta-img.svg'
+import pentagen3 from '../assets/images/svg/pentagen-img3.svg'
+import pentagen4 from '../assets/images/svg/pentagen-img4.svg'
+import AuthorFootbaal from '../assets/images/svg/author-footbal.svg'
 
 function Author() {
     return (
-        <div className='py_lg_115_312 py_30'>
+        <div className='py_lg_115_312 py_30 position-relative'>
+            <div className='position-absolute pos_pentagen3 end-0 z_1 d-sm-block d-none'><img src={pentagen3}
+                alt="pentagen3" /></div>
+            <div className='position-absolute pos_pentagen4 start-0 z_1'><img src={pentagen4} alt="pentagen4" /></div>
             <div className="custam_container">
                 <div className="row justify-content-between">
-                    <div className="col-lg-6 d-flex justify-content-center">
+                    <div className="col-lg-6 d-flex justify-content-center position-relative">
                         <img className='w-100 max_w_539' src={AuthorImg} alt="AuthorImg" />
+                        <div className='position-absolute pos_authorFootbal d-lg-block d-none'><img src={AuthorFootbaal} alt="AuthorFootbaal" /></div>
                     </div>
                     <div className="col-lg-6 pt-lg-0 pt-4 d-flex flex-column justify-content-lg-end  align-items-lg-end">
                         <div>
